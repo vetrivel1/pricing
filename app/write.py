@@ -79,6 +79,6 @@ async def write_indicator(indicator_id: str, countries: dict[str, str]) -> None:
             return
 
         elif missing:
-            st.error(f"Couldn't fetch results for {", ".join(missing)} right now.")
+            st.error(f"Couldn't fetch results for {', '.join(missing)} right now.")
 
         chart_data(indicator_id, data, list(chart_country_codes))
