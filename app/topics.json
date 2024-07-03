@@ -1,0 +1,10 @@
+{
+    "Economics": [
+        "NY.GDP.MKTP.CD",
+        "NY.GDP.PCAP.CD",
+        "NY.GDP.MKTP.KD.ZG",
+        "SL.UEM.TOTL.ZS",
+        "FP.CPI.TOTL.ZG",
+        "BX.TRF.PWKR.DT.GD.ZS"
+    ]
+}
