@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 from edgar import Company, set_identity
 
-openai.api_key = 'open-api-key-here'
+openai.api_key = st.secrets['OPENAI_API_KEY']
 
 set_identity("Michael Mccallum mcalum@gmail.com")
 
