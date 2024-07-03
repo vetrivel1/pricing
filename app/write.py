@@ -74,7 +74,7 @@ async def write_indicator(indicator_id: str, countries: dict[str, str]) -> None:
         chart_country_codes = {item["country_code"] for item in result}
 
         if (missing := country_codes - chart_country_codes) == country_codes:
-            msg = f"Couldn't fetch and chart data for {", ".join(missing)} right now."
+            msg = f"Couldn't fetch and chart data for {', '.join(missing)} right now."
             st.error(msg)
             return
 
